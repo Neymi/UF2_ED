@@ -1,4 +1,4 @@
-package practica1;
+package UF2_ED;
 import java.util.Scanner;
 
 /**
@@ -20,15 +20,15 @@ public class notas {
      * Este método solicita al usuario que introduzca las notas de tres unidades formativas.
      */
     public void IngresaNotas() {
-        System.out.println("Ingrese las notas del estudiante");
+        System.out.println("Introduzca las notas del estudiante");
         
-        System.out.print("Ingrese nota 1: ");
+        System.out.print("Introduzca nota 1: ");
         nota1 = entrada.nextDouble();
 
-        System.out.print("Ingrese nota 2: ");
+        System.out.print("Introduzca nota 2: ");
         nota2 = entrada.nextDouble();
         
-        System.out.print("Ingrese nota 3: ");
+        System.out.print("Introduzca nota 3: ");
         nota3 = entrada.nextDouble();
     }
     
